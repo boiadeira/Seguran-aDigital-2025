@@ -84,7 +84,17 @@ body{
     width: 50%;
     margin: 0 auto;
 }
+.parametro.senha-botao{
+display: flex;
+justify-content: center;
 
+}
+.parametro.senha-texto{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    border: 2px solid var(--borda);
+
+}
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
         flex-direction: row;
